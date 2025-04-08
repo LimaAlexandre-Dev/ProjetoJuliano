@@ -1,0 +1,9 @@
+﻿<Window x:Class="LigaDesliga.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Liga/Desliga" Height="200" Width="300">
+    <Grid>
+        <!-- Botão para alternar entre ligado e desligado -->
+        <Button Name="btnToggle" Content="Desligado" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="40" Click="btnToggle_Click"/>
+    </Grid>
+</Window>

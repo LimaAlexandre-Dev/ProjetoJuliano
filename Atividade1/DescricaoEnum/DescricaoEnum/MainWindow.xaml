@@ -1,0 +1,9 @@
+﻿<Window x:Class="ExibirDescricaoEnum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Descrição do Tipo de Usuário" Height="200" Width="300">
+    <Grid>
+        <ComboBox Name="cboTipoUsuario" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,30,0,0" Width="200"/>
+        <Button Content="Exibir Descrição" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="30" Margin="50,70,0,0" Click="Button_Click"/>
+    </Grid>
+</Window>

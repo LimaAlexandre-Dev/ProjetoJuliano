@@ -1,0 +1,10 @@
+﻿<Window x:Class="SomaDeDoisNumeros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Soma de Dois Números" Height="200" Width="300">
+    <Grid>
+        <TextBox Name="txtNumero1" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtNumero2" HorizontalAlignment="Left" Margin="50,70,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Somar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="30" Margin="50,110,0,0" Click="Button_Click"/>
+    </Grid>
+</Window>

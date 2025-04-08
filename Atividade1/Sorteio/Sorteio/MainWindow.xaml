@@ -1,0 +1,9 @@
+﻿<Window x:Class="SimuladorSorteio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Simulador de Sorteio" Height="200" Width="300">
+    <Grid>
+        <!-- Botão para realizar o sorteio -->
+        <Button Name="btnSortear" Content="Sortear Número" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="40" Click="btnSortear_Click"/>
+    </Grid>
+</Window>

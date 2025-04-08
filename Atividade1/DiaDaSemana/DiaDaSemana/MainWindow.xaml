@@ -1,0 +1,12 @@
+﻿<Window x:Class="VerificarDiaDaSemana.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Verificar Dia da Semana" Height="250" Width="300">
+    <Grid>
+        <!-- DatePicker para selecionar a data -->
+        <DatePicker Name="datePicker" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,30,0,0" Width="200"/>
+
+        <!-- Botão para verificar o dia da semana -->
+        <Button Content="Verificar Dia" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="30" Margin="50,70,0,0" Click="Button_Click"/>
+    </Grid>
+</Window>
